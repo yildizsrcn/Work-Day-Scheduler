@@ -9,13 +9,13 @@
 // Save the event in local storage when the save button is clicked in that timeblock.
 
 // Persist events between refreshes of a page
+$(function(){
+    var currentDayEl = $("#currentDay")
 
-var currentDayEl = $("#currentDay")
-
-var containerEl = $(".container")
-
-var hours = [
-    9, 10, 11, 12, 13, 14, 15, 16, 17,
-]
-
-var currentDay = dayjs();
+    var containerEl = $(".container")
+    
+    var hours = [
+        9, 10, 11, 12, 13, 14, 15, 16, 17,
+    ]
+    var timeslots=["9 am","10 am","11 am","12 pm","1 pm", "2 pm", "3 pm","4 pm","5 pm"]
+}
