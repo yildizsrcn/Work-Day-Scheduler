@@ -17,5 +17,4 @@ $(function(){
     var hours = [
         9, 10, 11, 12, 13, 14, 15, 16, 17,
     ]
-    var timeslots=["9 am","10 am","11 am","12 pm","1 pm", "2 pm", "3 pm","4 pm","5 pm"]
 }
